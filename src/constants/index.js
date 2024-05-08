@@ -26,7 +26,8 @@ import {
     threejs,
     MachineLearning,
     Python,
-    TA
+    TA,
+    fire_base
 } from "../assets";
 
 export const navLinks = [
@@ -118,8 +119,8 @@ const technologies = [
         icon: figma,
     },
     {
-        name: "docker",
-        icon: docker,
+        name: "fire_base",
+        icon: fire_base,
     },
 ];
 
