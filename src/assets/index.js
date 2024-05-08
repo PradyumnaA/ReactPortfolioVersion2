@@ -33,6 +33,12 @@ import tripguide from "./tripguide.png";
 import MachineLearning from "./MachineLearning.png";
 import Python from "./Python.png";
 import TA from "./TA.png"
+import QSpiders from "./QSpiders.png";
+import SyslogTechnologies  from "./SyslogTechnologies.jpeg"
+import UniversityOfThePacific from "./UniversityOfThePacific.png"
+import IndianDelicacies from "./IndianDelicacies.png"
+import SentimentAnalysis from "./SentimentAnalysis.png"
+import BeautyProductRecommendationSystemUsingPython from "./BeautyProductRecommendationSystemUsingPython.png"
 export {
   logo,
   backend,
@@ -66,5 +72,11 @@ export {
   MachineLearning,
   Python,
     TA,
-    fire_base
+    fire_base,
+    QSpiders,
+    SyslogTechnologies,
+    UniversityOfThePacific,
+    IndianDelicacies,
+    SentimentAnalysis,
+  BeautyProductRecommendationSystemUsingPython
 };
