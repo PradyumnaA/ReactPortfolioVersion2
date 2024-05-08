@@ -1,0 +1,40 @@
+/* App.css */
+
+/* Define styles for the app container */
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Define styles for the hero container */
+.hero-container {
+    width: 100%;
+    background: url('path_to_your_hero_image.jpg') no-repeat center center/cover;
+    padding: 20px; /* Adjust the padding as needed */
+}
+
+/* Define styles for the content container */
+.content-container {
+    width: 100%;
+    max-width: 500px; /* Adjust the maximum width as needed */
+    display: flex;
+    flex-wrap: nowrap; /* Allow content to wrap to next row */
+    padding: 30px; /* Adjust the padding as needed */
+    justify-content: center;
+}
+
+/* Define styles for each section */
+.section {
+    flex: 1; /* Each section occupies equal space */
+    margin: 10px;
+    max-width: 400px; /* Adjust the maximum width of each section */
+}
+
+/* Media query for responsiveness */
+@media screen and (min-width: 768px) {
+    .section {
+
+        flex-basis: calc(70% - 20px); /* Each section occupies 33.33% of the container width minus margin */
+    }
+}
